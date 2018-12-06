@@ -1,0 +1,548 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1dd0a2ae4551a469723168560773ae, type: 3}
+  m_Name: Article_inventory
+  m_EditorClassIdentifier: 
+  Classification_Zh:
+  - "\u5315\u9996"
+  - "\u722A"
+  - "\u5F13"
+  - "\u69CD"
+  - "\u6CD5\u6756"
+  - "\u5176\u4ED6"
+  - "\u528D"
+  - "\u9053\u5177"
+  - "\u98DF\u7269"
+  commodity:
+  - Name: "GM\u7528\u5916\u639B"
+    ID: 1
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: 93a62188ef4d21c469f29f0f6f1727f8, type: 3}
+    gameObject: {fileID: 1436074462721570, guid: d5780c26e1f23b24fbae8791850eb06b,
+      type: 2}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u6975 \u706B\u7403"
+    ID: 2
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: 2bd9ad2035fdafb44958d481179754f8, type: 3}
+    gameObject: {fileID: 1535200090336920, guid: 3520267d4c74a5042acd8177d122bc7e,
+      type: 2}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u539F\u4F4F\u6C11\u780D\u5200"
+    ID: 3
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 100000, guid: 2b4e0496b71e5864ea17e62c57a06963, type: 3}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u6F22\u6469\u62C9\u6BD4 \u5315\u9996"
+    ID: 4
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 100000, guid: 46bee165790d2c24f9abecc09e243920, type: 3}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u6B66\u58EB\u610F\u5FD7"
+    ID: 5
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 100000, guid: 43cf19174db63f549b650fd48a60e071, type: 3}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u897F\u6D0B\u528D"
+    ID: 6
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 100000, guid: c1ac58f958fd93b49a10161ce774a18e, type: 3}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u5341\u5B57\u77ED\u5200"
+    ID: 7
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 100000, guid: dd0682cd55d7f8342b8026ebb1cfc4a5, type: 3}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u907A\u7522\u7684\u780D\u5200"
+    ID: 8
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 100000, guid: 3bd1b773913e1a3428b48ca4b9f9248f, type: 3}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u566C\u8840"
+    ID: 9
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 100000, guid: 90c25ff0db82bf64cbc6b8e405018824, type: 3}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  - Name: "\u7A2E\u83DC"
+    ID: 10
+    origin: []
+    story: 
+    No_use:
+      user: 0
+      NPC: 1
+      monster: 1
+    classification: 5
+    image: {fileID: 21300000, guid: e984a7338958c9e498d219f81e15c52e, type: 3}
+    gameObject: {fileID: 1539463803316114, guid: e867794e18f192c41b65e54e662d708e,
+      type: 2}
+    overlapping: 0
+    place:
+      backpack: 1
+      right: 1
+      left: 1
+      head: 0
+      body: 0
+      leg: 0
+      foot: 0
+      Ring: 0
+      necklace: 0
+      gloves: 0
+      Special_props: 0
+      Throw: 1
+      NPC: 1
+      monster: 1
+      box: 1
+    durable: 50
+    LV: 0
+    Level_limit: 0
+    power: 0
+    power_limit: 0
+    agile: 0
+    agile_limit: 0
+    wisdom: 0
+    wisdom_limit: 0
+    rare: 0
+    time: 2
+    initiative_Attack_method: 
+    passive_Attack_method: 
+    store: 0
+    destroy: 1
+  animation:
+  - Name: "\u5927\u529B\u6295\u64F2"
+    ID: 3
+    story: "\u5B89\u5B89\u5B89\u5B89"
+    time_play: 10
+    text: hk4h4
+    time: 0
+    origin: []
+    LV: 0
+    Level_limit: 0
+    power_limit: 0
+    agile_limit: 0
+    wisdom_limit: 0
+    anims: 00000000
+    place:
+      prop: 1
+      Special_props: 1
+      Throw: 0
+      NPC: 0
+  - Name: "\u596E\u529B\u6295\u64F2"
+    ID: 1
+    story: 
+    time_play: 10
+    text: 
+    time: 0
+    origin: []
+    LV: 0
+    Level_limit: 0
+    power_limit: 0
+    agile_limit: 0
+    wisdom_limit: 0
+    anims: 
+    place:
+      prop: 1
+      Special_props: 1
+      Throw: 0
+      NPC: 0
+  - Name: "\u760B\u9001"
+    ID: 2
+    story: 
+    time_play: 41
+    text: 
+    time: 0
+    origin: []
+    LV: 0
+    Level_limit: 0
+    power_limit: 0
+    agile_limit: 0
+    wisdom_limit: 0
+    anims: 
+    place:
+      prop: 1
+      Special_props: 1
+      Throw: 0
+      NPC: 0
+  - Name: "\u5F71\u5206\u8EAB"
+    ID: 3
+    story: 
+    time_play: 10
+    text: 
+    time: 0
+    origin: []
+    LV: 0
+    Level_limit: 0
+    power_limit: 0
+    agile_limit: 0
+    wisdom_limit: 0
+    anims: 
+    place:
+      prop: 1
+      Special_props: 1
+      Throw: 0
+      NPC: 0
+  - Name: "\u8DF3\u65AC"
+    ID: 4
+    story: 
+    time_play: 5
+    text: 
+    time: 0
+    origin: []
+    LV: 0
+    Level_limit: 0
+    power_limit: 0
+    agile_limit: 0
+    wisdom_limit: 0
+    anims: 
+    place:
+      prop: 1
+      Special_props: 1
+      Throw: 0
+      NPC: 0

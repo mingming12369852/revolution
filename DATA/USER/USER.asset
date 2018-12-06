@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0476521a25bca4c9080309cb2a63c2, type: 3}
+  m_Name: USER
+  m_EditorClassIdentifier: 
+  ID: 3
+  user:
+    Name: vg
+    Id: 
+    Mod: 1
+    LV: 0
+    experience: 0
+    Surname: 0
+  Hp:
+    Hp: -775.0001
+    Hpmax: 100
+  Mp:
+    Mp: 50
+    Mpmax: 100
+  XY:
+    X: -5.593773
+    Y: 13.596115
+    Z: -2607.3604
+    map: 3
+    Camera: -1.9693186
+  Money:
+    gold: 0
+    silver: 0
+    copper: 0
+  talent: 0100000001000000010000000100000001000000
+  chatroom: []
+  Ctrl: []
+  backpackMax: 15
+  backpack:
+  - Name: 
+    ID: 1
+    Consumption: 1
+    Quantity: 1
+    skill: 1
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  - Name: 
+    ID: 2
+    Consumption: 1
+    Quantity: 1
+    skill: 0
+  Anim:
+  - Name: 
+    ID: 3
+    skill: 0
+  - Name: 
+    ID: 1
+    skill: 2
+  - Name: 
+    ID: 2
+    skill: 0
+  - Name: 
+    ID: 3
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  - Name: 
+    ID: 4
+    skill: 0
+  Anim_max: 15
+  Skill: "\x01\x01\x01\x01\x01"
+  Skill_op: "\x01\x01\x01\x01\x01"
+  ability:
+    mobile: 25
+    jump: 10
+    power: 0
+    agile: 0
+    wisdom: 0
+    Stun: 0
+  Load: 0
+  direction: {x: -0.12567666, y: 0.9920713}
+  jump: 0
+  but: 1
+  but_no: 0
+  too: 0
+  skill_play: -1
+  skill_edit: 2
